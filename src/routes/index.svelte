@@ -15,7 +15,7 @@ Additionally, if there's a dash with a space on both side (like this: " - "), it
 </script>
 
 <div class="max-w-screen-lg mx-auto p-3 font-serif text-xl text-amber-800">
-	<h1 class="uppercase text-6xl font-anton mt-3 text-amber-800">curlier</h1>
+	<h1 class="uppercase text-6xl font-anton mt-3 text-amber-800">curly</h1>
   <a href="https://github.com/vinliao/curly" class="underline">GitHub</a>
 		<textarea
 			on:keyup={curly}
