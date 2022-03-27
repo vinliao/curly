@@ -16,15 +16,13 @@ Additionally, if there's a dash with a space on both side (like this: " - "), it
 
 <div class="max-w-screen-lg mx-auto p-3 font-serif text-xl text-amber-800">
 	<h1 class="uppercase text-6xl font-anton mt-3 text-amber-800">curlier</h1>
-  <p class="mb-12 underline">GitHub</p>
-	<!-- <div class="flex flex-col"> -->
+  <a href="https://github.com/vinliao/curly" class="underline">GitHub</a>
 		<textarea
 			on:keyup={curly}
 			use:autosize
 			rows="9"
 			{placeholder}
 			bind:value={input}
-			class="focus:outline-none bg-amber-400 placeholder-neutral-500 p-2 w-full"
+			class="focus:outline-none bg-amber-400 placeholder-neutral-500 p-2 w-full mt-12"
 		/>
-	<!-- </div> -->
 </div>
